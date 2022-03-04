@@ -310,7 +310,7 @@ compute PROC             ;start the "compute" procedure or function
     LEA DX, newline       ;load and print "newline" message or string
     CALL displayString   ;call the "displayString" procedure or function
     CALL input           ;call the "input" procedure or function
-    MOV BL, AL           ;move AL content in bl
+    MOV AL, BL           ;move bL content in al
     JMP up               ;go to label "up"
     Exit:                ;make "Exit" label
     ret                  ;to return tthe procedure or fucntion
