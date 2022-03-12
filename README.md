@@ -6,4 +6,4 @@ It first compute GPA of the given grade of a subject and then multiply that with
 When it finds all subjects gpa then it adds the result in total.
 And to find the final result it divides the total sum GPA with the total number of credit hours.
 Then displays the final result.
-I also write comments for each instruction so you can easily uderstand 
+I also write comments for each instruction so you can easily uderstand it.
